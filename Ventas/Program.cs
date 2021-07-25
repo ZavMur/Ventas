@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Win.AutoloteL3
+namespace Ventas
 {
     static class Program
     {
@@ -18,15 +16,7 @@ namespace Win.AutoloteL3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Application.Run(new Form1());
         }
-        public static byte[] imagenToByteArray(Image ImagenIn)
-        {
-            var ms = new MemoryStream();
-            ImagenIn.Save(ms, ImagenIn.RawFormat);
-
-            return ms.ToArray();
-        }
-       
     }
 }

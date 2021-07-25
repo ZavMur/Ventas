@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Win.AutoloteL3.Properties
+namespace Ventas.Properties
 {
 
 
