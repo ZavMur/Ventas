@@ -135,6 +135,7 @@
     <None Include="Properties\DataSources\BL.Ventas.Cliente.datasource" />
     <None Include="Properties\DataSources\BL.Ventas.ClientesBL.datasource" />
     <None Include="Properties\DataSources\BL.Ventas.Contexto.datasource" />
+    <None Include="Properties\DataSources\BL.Ventas.FacturaBL.datasource" />
     <None Include="Properties\DataSources\BL.Ventas.Producto.datasource" />
     <None Include="Properties\DataSources\BL.Ventas.ProductosBL.datasource" />
     <None Include="Properties\DataSources\BL.Ventas.Resultado.datasource" />
