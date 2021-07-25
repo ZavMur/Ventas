@@ -142,11 +142,11 @@ namespace Win.AutoloteL3
 
             if (factura != null && factura.Id != 0 && factura.Activo == false)
             {
-             //   label1.Visible = true;
+                label1.Visible = true;
             }
             else
             {
-            //    label1.Visible = false;
+                label1.Visible = false;
             }
         }
     }
