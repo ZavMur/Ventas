@@ -28,6 +28,7 @@ namespace BL.Ventas
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Factura> Facturas { get; set; }
 
     }
 }
