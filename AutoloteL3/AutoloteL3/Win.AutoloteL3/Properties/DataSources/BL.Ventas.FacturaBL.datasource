@@ -21,6 +21,9 @@
             </PropertyUISettings>
          </TypeUISetting>
       </GenericObjectDataSource>
+      <GenericObjectDataSource DisplayName="FacturaDetalle" Version="1.0">
+         <TypeInfo>BL.Ventas.FacturaDetalle, BL.Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
+      </GenericObjectDataSource>
    </Children>
    <TypeInfo>BL.Ventas.FacturaBL, BL.Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
 </GenericObjectDataSource>
